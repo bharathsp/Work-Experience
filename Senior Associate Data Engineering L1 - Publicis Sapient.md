@@ -1,5 +1,5 @@
 # Publicis Sapient
-## 📅 **Date:** July 2025 - Present
+## 📅 **Date:** 30 July 2025 - Present
 ## 👤 **Role:** Senior Associate Data Engineer L1
 ## Projects:
 
