@@ -1,5 +1,5 @@
 # MathCo
-## 📅 **Date:** July 2022 - July 2025
+## 📅 **Date:** 13 July 2022 - 28 July 2025
 ## 👤 **Role:** Data Engineer 2
 ## Projects:
 
