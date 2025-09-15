@@ -42,6 +42,8 @@ TBD
 
 ### **Project Development Life Cycle (PDLC)**: NucliOS App development
 
+<img width="300" height="75" alt="image" src="https://github.com/user-attachments/assets/f758073b-3833-4667-af2e-977c7187c0aa" />
+
 #### 📅 **Date:** Apr 2024 - Nov 2024
 
 #### **🛠 Tools Used** 
@@ -84,6 +86,8 @@ TBD
 
 ### **Merck Sharp & Dohme (MSD)**: Budget Allocation Optimization
 
+<img width="300" height="90" alt="image" src="https://github.com/user-attachments/assets/907eb7b9-13fd-4f54-af00-0867cd4daaf2" />
+
 #### 📅 **Date:** Feb 2024 – Apr 2024
 
 #### **🛠 Tools Used** 
@@ -110,6 +114,8 @@ TBD
 ---
 
 ### **Walmart**: Code and Airflow DAG Optimization
+
+<img width="300" height="70" alt="image" src="https://github.com/user-attachments/assets/86398180-591e-4edb-9842-39c027349cd7" />
 
 #### 📅 **Date:** Aug 2023 – Jan 2024
 
@@ -138,6 +144,8 @@ TBD
 
 ### **Abbvie**: Automated Data Quality Monitoring
 
+<img width="300" height="70" alt="image" src="https://github.com/user-attachments/assets/fda59b95-26c2-43c5-a34e-b3ab8c8a311e" />
+
 #### 📅 **Date:** Jan 2023 – Jul 2023
 
 #### **🛠 Tools Used** 
@@ -162,6 +170,8 @@ TBD
 TBD
 
 ### **Abbvie**: Access and Reimbursement Dashboard
+
+<img width="300" height="70" alt="image" src="https://github.com/user-attachments/assets/fda59b95-26c2-43c5-a34e-b3ab8c8a311e" />
 
 #### 📅 **Date:** Jan 2022 – Aug 2022
 
