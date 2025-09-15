@@ -1,9 +1,15 @@
 # MathCo
-## 📅 **Date:** 13 July 2022 - 28 July 2025
-## 👤 **Role:** Data Engineer 2
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ad6daf4a-7c30-4831-b35d-50196b6aa157" />
+
+
+📅 **Date:** 13 July 2022 - 28 July 2025
+
+👤 **Role:** Data Engineer 2
 ## Projects:
 
 ### **Coca Cola**: Supply and Demand Planner
+
+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/3bbea12d-509e-43b1-a695-936b9f8b347b" />
 
 #### 📅 **Date:** Nov 2024 – July 2025
 
