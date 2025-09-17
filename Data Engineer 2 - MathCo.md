@@ -13,30 +13,39 @@
 
 #### 📅 **Date:** Nov 2024 – July 2025
 
-#### **🛠 Tools Used** 
-Azure ML Studio, Azure Synapse Analytics, Azure Data Lake Gen2, Python, PySpark, SQL, Azure DevOps, Git, Power BI
+#### **◉ Tools Used** 
+Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI
 
-#### **🛠 Responsibilities**
+#### **◉ Project Overview**
 
-TBD
+Designed and developed an **end-to-end Supply & Demand Planner** tool to automate demand forecasting and supply chain balancing across multiple bottling locations. The solution ensured plants closest to distribution centers were notified to produce the required goods while considering factors like **shelf life, STO lead time, production line changeover, CIP (clean-in-place), and line downtime**.
 
-#### **🏆 Key Achievements**
+The system integrated multiple data sources (on-premises databases, Amazon S3, REST APIs) via **Azure Data Factory** into a **Medallion Architecture** on **Azure Data Lake Storage Gen2**. Using **Azure Synapse**, data was modeled into a **star schema** with fact and dimension tables to enable fast querying and analytics.
 
-* 🛠️ **Designed & Developed:** End-to-end *Supply & Demand Planner* tool to automate demand forecasting and supply chain balancing across multiple bottling locations.
+On the ML side, **Azure ML Studio** was leveraged to develop batch demand forecasting models using historical sales and production data. Additionally, **automated DQM pipelines** validated upstream data quality and triggered anomaly reports via email, ensuring reliability of downstream processes.
 
-* 🤖 **Automated DQM Pipelines:** Used *Azure ML Studio* to detect anomalies, validate completeness, and ensure schema conformity in upstream data.
+#### **◉ Responsibilities**
 
-* 🔄 **Data Engineering:** Built *Azure Synapse* pipelines integrated with the *Medallion Architecture* on Azure Data Lake Gen2 for efficient ingestion, transformation, and aggregation.
+* Led a **team of 2 data engineers**, collaborating with **data scientists and business stakeholders** to deliver a scalable forecasting solution.
+* Designed and developed **ETL pipelines** in Azure Synapse, integrated with Medallion architecture for efficient ingestion, transformation, and aggregation.
+* Built and automated **Data Quality Management (DQM) pipelines** to validate nulls, format issues, duplicates, invalid ranges, and foreign key mismatches.
+* Worked with data scientists to integrate ML forecasting models into production, enabling **batch demand forecasting**.
+* Implemented **CI/CD pipelines** using Azure DevOps for automated deployment and version control of ETL and ML workflows.
+* Ensured system scalability and performance optimization using **PySpark** for ETL and model scoring.
 
-* 🌐 **Front-End Integration:** Enabled planners to interact with ML-driven forecasts via *API endpoints* triggered through *Azure ML Studio scoring pipelines*.
+#### **◉ Key Achievements**
+* Successfully delivered a **Supply & Demand Planner tool** that automated end-to-end demand forecasting and supply balancing.
+* Reduced **manual data quality checks by 90%**, with DQM pipelines detecting **97% of anomalies in real time**.
+* Improved forecasting accuracy and timeliness, enabling better production planning while reducing stockouts and wastage.
+* Established a **robust data foundation** using star schema modeling in SQL Server for fast analytics and reporting.
+* Ensured seamless collaboration across cross-functional teams (engineering, data science, and business), delivering a **production-grade solution**.
 
-* ⚡ **Scalable ETL & ML:** Leveraged *PySpark* for scalable ETL and model scoring, optimizing run time and resource consumption.
+#### **◉ Challenges**
 
-* 📂 **Version Control & CI/CD:** Managed workflows and ML pipelines using *Git* and *Azure DevOps*, with CI/CD pipelines for streamlined deployment.
-
-#### **⚠ Challenges**
-
-TBD
+* **Complex Supply Chain Logic**: Factoring in shelf life, STO lead time, line downtime, changeovers, and CIP into the planning algorithm.
+* **Data Quality Issues**: Frequent nulls, format mismatches, and anomalies in upstream data required designing automated, scalable DQM pipelines.
+* **Cross-Functional Alignment**: Balancing priorities between business stakeholders, data scientists, and engineering teams while ensuring timely delivery.
+* **Scalability & Performance**: Optimizing PySpark jobs and Synapse pipelines to handle large-scale historical and real-time data efficiently.
 
 ---
 
@@ -46,41 +55,47 @@ TBD
 
 #### 📅 **Date:** Apr 2024 - Nov 2024
 
-#### **🛠 Tools Used** 
+#### **◉ Tools Used** 
 NucliOS, SQL Server, Python, SQL, draw.io
 
-#### **🛠 Responsibilities**
-TBD
+#### **◉ Project Overview**
 
+The **Project Development Life Cycle (PDLC)** project was an internal initiative to build a fully integrated **in-house project management solution**—designed as a replacement for commercial tools like Jira and Azure Boards.
 
-#### **🏆 Key Achievements**
+The tool provided role-based dashboards and features such as:
 
-✨ I was part of the **PDLC Project** right from the **scratch stage** – a project management tool built as an **in-house replacement for Jira**.
+* 📌 **Project Dashboard** – project-level tracking and KPIs
+* 👥 **Team Dashboard** – team assignments, progress, and workload
+* 📈 **Sprint Progress** – sprint velocity, burndown charts, and task tracking
 
-📊 **Planned & designed** the data model using **Star Schema** & **Snowflake Schema**, modeled via **draw\.io**.
+Key features included **user management, role-based access control, and creation of features/stories/tasks/bugs**. Access permissions were **role-specific** (e.g., managers could add/remove team members, while developers could manage tasks assigned to them).
 
-🗄️ Used **SQL Server** as the backend database.
+On the backend, the system was powered by **SQL Server**, with **Star and Snowflake schema modeling**, and implemented **Slowly Changing Dimensions (SCD)** and **Change Data Capture (CDC)** design patterns to handle evolving project and team data.
 
-📑 Created **BRD** and **TRD** documents.
+#### **◉ Responsibilities**
 
-🐍 Built an **end-to-end tool using NucliOS** (powered by Python).
+* **End-to-End Involvement**: Contributed from the ground up, including requirements gathering, design, and implementation.
+* **Data Modeling**: Designed and developed backend tables in **SQL Server** using **Star & Snowflake schema** principles.
+* **Design Patterns**: Implemented **SCD** and **CDC** to ensure historical accuracy and real-time data updates.
+* **Documentation**: Authored **BRD (Business Requirement Document)** and **TRD (Technical Requirement Document)**.
+* **Project Management**:
+  * Drove **standup calls** and **client interactions**.
+  * Created **Weekly Business Reports (WBR)** and **Monthly Business Reports (MBR)**.
+* **Tool Development**: Assisted in building the tool using **NucliOS (Python-based)** for integration and UI.
 
-📂 The tool included **tabs** such as:
+#### **◉ Key Achievements**
 
-* 📌 Project Dashboard
-* 👥 Team Dashboard
-* 📈 Sprint Progress
+* Successfully developed and deployed an **in-house project management tool** used across multiple company projects.
+* Delivered a **cost saving of \~25 Million INR** by reducing reliance on external tools like Jira and Azure DevOps Boards.
+* Standardized **data models and reporting structures**, ensuring consistency across all project management modules.
+* Enhanced **role-based access control**, improving security and usability across diverse project teams.
 
-⚙️ Key **features** of the tool:
+#### **◉ Challenges**
 
-* 👤 User Management
-* 🔐 Role-based Access Control
-* 📝 Feature / Story / Task / Bug Creation
-
-💰 Achieved a **cost saving of \~25 Million INR** by leveraging **in-house NucliOS**, reducing dependency on external tools like **Jira** or **Azure DevOps**.
-
-#### **⚠ Challenges**
-TBD
+* **Complex Role-Specific Access**: Designing dynamic role-based permissions for dashboards and modules.
+* **Data Consistency**: Implementing **SCD & CDC** patterns to track evolving project data while ensuring historical accuracy.
+* **Cross-Functional Alignment**: Balancing requirements between managers, developers, and leadership to design a unified tool.
+* **Scalability & Adoption**: Ensuring the tool could scale across multiple projects and gain adoption over established industry tools like Jira.
 
 ---
 
