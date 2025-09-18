@@ -64,9 +64,9 @@ The **Project Development Life Cycle (PDLC)** project was an internal initiative
 
 The tool provided role-based dashboards and features such as:
 
-* 📌 **Project Dashboard** – project-level tracking and KPIs
-* 👥 **Team Dashboard** – team assignments, progress, and workload
-* 📈 **Sprint Progress** – sprint velocity, burndown charts, and task tracking
+* **Project Dashboard** – project-level tracking and KPIs
+* **Team Dashboard** – team assignments, progress, and workload
+* **Sprint Progress** – sprint velocity, burndown charts, and task tracking
 
 Key features included **user management, role-based access control, and creation of features/stories/tasks/bugs**. Access permissions were **role-specific** (e.g., managers could add/remove team members, while developers could manage tasks assigned to them).
 
@@ -105,26 +105,46 @@ On the backend, the system was powered by **SQL Server**, with **Star and Snowfl
 
 #### 📅 **Date:** Feb 2024 – Apr 2024
 
-#### **🛠 Tools Used** 
+#### **◉ Project Overview**
+
+This was a **Proof of Concept (POC)** project for **Merck**, focused on optimizing **budget allocation across multiple marketing channels** (newspapers, banners, television ads, etc.) based on historical performance data.
+
+The Merck team provided **logarithmic curve formulas** for each marketing mode, derived from historical spend vs. ROI data. Using these curves, we built an **optimization engine** that fit current data to predict future profits and optimized budget distribution to maximize ROI.
+
+The solution involved:
+
+* Developing a **budget optimization engine** with greedy algorithms.
+* Using **Databricks (PySpark, SQL)** for data cleaning, transformation, and modeling.
+* Integrating results with **NucliOS-based UI** and **Power BI dashboards** for scenario simulations and visualization.
+* Running **regression-based forecasting** to generate multiple marketing spend scenarios.
+
+The POC lasted one month, and due to its success, it was later converted into a **full-scale project**.
+
+#### **◉ Tools Used** 
 Python, Databricks, SQL, Power BI, Excel, NucliOS, Jira
 
-#### **🛠 Responsibilities**
-TBD
+#### **◉ Responsibilities**
 
-#### **🏆 Key Achievements**
+* Designed and implemented the **budget optimization engine** using **greedy algorithms** with logarithmic ROI curves.
+* Cleaned, transformed, and modeled large-scale sales and spend datasets using **PySpark** and **SQL** on **Databricks notebooks**.
+* Integrated optimizer results with **NucliOS UI** and **Power BI dashboards** to enable business users to run real-time simulations.
+* Built **scenario-based forecasting models** to evaluate potential ROI under varying spend conditions.
+* Collaborated with cross-functional teams, tracked tasks on **Jira**, and maintained documentation on **Confluence**.
 
-* 📊 **Budget Optimization Engine:** Developed an optimizer leveraging *greedy* and *logarithmic allocation algorithms* to maximize ROI across marketing campaigns.
+#### **◉ Key Achievements**
 
-* ⚡ **Data Engineering & Modeling:** Cleaned, transformed, and modeled large-scale sales and spend datasets using *PySpark* and *SQL* on *Databricks* notebooks for scalability and performance.
+* Successfully delivered a **functional POC in just one month**, exceeding client expectations.
+* Developed a **budget optimization engine** capable of reallocating spend dynamically across marketing channels to maximize ROI.
+* Enabled **real-time budget simulations** and visualizations via UI and dashboards, enhancing decision-making for business users.
+* Built a scalable data pipeline on **Databricks**, ensuring performance and flexibility for future expansion.
+* Contributed to converting the **POC into a long-term full-scale project**, generating significant client value.
 
-* 🌐 **UI & Dashboard Integration:** Integrated optimizer output with a *NucliOS-based real-time UI* and *Power BI dashboards* to enable business users to simulate and visualize budget scenarios.
+#### **◉ Challenges**
 
-* 🔮 **Scenario Simulations:** Generated *scenario-based simulations* using historical patterns and *regression-based forecast models*.
-
-* 🤝 **Collaboration & Documentation:** Coordinated with cross-functional teams using *Jira* and documented workflows on *Confluence*.
-
-#### **⚠ Challenges**
-TBD
+* **Complex ROI Curves**: Each marketing mode had different logarithmic curve formulas, requiring careful integration into the optimization model.
+* **Data Quality Issues**: Historical spend and sales data needed heavy cleaning and transformation before modeling.
+* **Time Constraint**: Delivering a robust POC with multiple components (optimization, forecasting, UI, dashboards) within a **1-month timeline**.
+* **Scalability Concerns**: Ensuring the POC could later scale into a production-grade solution without significant rework.
 
 ---
 
@@ -134,26 +154,43 @@ TBD
 
 #### 📅 **Date:** Aug 2023 – Jan 2024
 
-#### **🛠 Tools Used** 
+#### **◉ Project Overview**
+
+This project focused on **optimizing and refactoring an existing real-time streaming pipeline** to achieve faster execution and near real-time dashboard refreshes. The pipeline processed **\~6 billion retail records every 30 minutes**, covering item-related data such as **name, description, availability, impressions, clicks, activities, and orders**.
+
+The scope included:
+
+* Migrating legacy **SQL-based pipelines** to **PySpark** for scalability and fault tolerance.
+* Refactoring **Airflow DAGs** to improve task parallelism and reduce runtime.
+* Handling **high-velocity JSON payloads** from Apache Kafka via **Google Dataproc**, with downstream analytics powered by **Google BigQuery**.
+* Debugging and maintaining the **Airflow pipelines** to ensure resilience against schema changes and upstream data issues.
+
+#### **◉ Tools Used** 
 PySpark, Apache Airflow, SQL, Apache Kafka, JSON, GitHub Actions, Docker, DBeaver
 
-#### **🛠 Responsibilities**
-TBD
+#### **◉ Responsibilities**
 
-#### **🏆 Key Achievements**
+* **Pipeline Refactoring**: Converted SQL-heavy legacy code into **PySpark** pipelines to improve scalability and performance.
+* **Airflow Optimization**: Re-structured DAG task dependencies to enable **parallel execution** and reduce overall runtime by 75%.
+* **Streaming Ingestion**: Built streaming pipelines in **Google Dataproc** to process high-velocity JSON data from **Apache Kafka** topics.
+* **Data Cleansing & Parsing**: Improved JSON parsing by replacing nested loops with **PySpark’s from\_json()**, and implemented **regexp\_replace()** to handle problematic characters (e.g., special symbols, extra quotes) that caused parsing failures.
+* **Pipeline Maintenance**: Monitored and debugged **Airflow DAGs**, fixing breakages caused by upstream format changes and coordinating with clients for resolution.
+* **Analytics Integration**: Enabled downstream querying and dashboard updates using **Google BigQuery** for near real-time insights.
 
-* 🔄 **Pipeline Refactoring:** Refactored *legacy SQL-based pipelines* into *PySpark* to improve scalability and fault tolerance for both batch and streaming jobs.
+#### **◉ Key Achievements**
 
-* ⚡ **Airflow Optimization:** Restructured task dependencies in *Airflow DAGs*, enabling parallelism and reducing runtime by **75%** during peak retail loads.
+* Reduced pipeline runtime **from 4.5 hours to just 20 minutes**, enabling **near real-time dashboard refreshes**.
+* Achieved **75% reduction in peak load runtime** by enabling parallel task execution in Airflow.
+* Enhanced **pipeline reliability** by designing robust handling of JSON parsing errors and upstream data format changes.
+* Successfully scaled the solution to handle **billions of records every 30 minutes**, ensuring both performance and fault tolerance.
+* Improved collaboration with clients by providing timely issue communication and quick fixes to maintain SLAs.
 
-* 📡 **Real-Time Streaming:** Engineered a *real-time ingestion pipeline* using *Apache Kafka* to handle high-velocity JSON payloads and transform them for downstream analytics.
+#### **◉ Challenges**
 
-* 🧩 **Reusable Components:** Built reusable *PySpark functions* for nested JSON parsing and schema flattening.
-
-* 🐳 **Deployment & Automation:** Deployed workflows using *Docker* and automated testing & deployment with *GitHub Actions*.
-
-#### **⚠ Challenges**
-TBD
+* **Nested JSON Parsing Issues**: The PySpark `from_json()` function failed due to special characters in values, causing pipeline breakages. This was resolved by preprocessing payloads with **regexp\_replace()**.
+* **High Data Volume & Velocity**: Ensuring the system could handle **6B+ records in 30-min windows** required heavy refactoring for performance optimization.
+* **Airflow DAG Failures**: Pipelines occasionally failed due to **upstream schema/format changes**; resolving these required quick debugging, client communication, and code adjustments.
+* **Time Sensitivity**: Strict SLA requirements meant dashboards had to be refreshed within **30 minutes**, leaving little margin for error.
 
 ---
 
@@ -183,6 +220,8 @@ TBD
 
 #### **⚠ Challenges**
 TBD
+
+---
 
 ### **Abbvie**: Access and Reimbursement Dashboard
 
