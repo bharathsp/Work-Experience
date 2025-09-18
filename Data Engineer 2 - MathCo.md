@@ -13,9 +13,6 @@
 
 #### 📅 **Date:** Nov 2024 – July 2025
 
-#### **◉ Tools Used** 
-Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI
-
 #### **◉ Project Overview**
 
 Designed and developed an **end-to-end Supply & Demand Planner** tool to automate demand forecasting and supply chain balancing across multiple bottling locations. The solution ensured plants closest to distribution centers were notified to produce the required goods while considering factors like **shelf life, STO lead time, production line changeover, CIP (clean-in-place), and line downtime**.
@@ -23,6 +20,9 @@ Designed and developed an **end-to-end Supply & Demand Planner** tool to automat
 The system integrated multiple data sources (on-premises databases, Amazon S3, REST APIs) via **Azure Data Factory** into a **Medallion Architecture** on **Azure Data Lake Storage Gen2**. Using **Azure Synapse**, data was modeled into a **star schema** with fact and dimension tables to enable fast querying and analytics.
 
 On the ML side, **Azure ML Studio** was leveraged to develop batch demand forecasting models using historical sales and production data. Additionally, **automated DQM pipelines** validated upstream data quality and triggered anomaly reports via email, ensuring reliability of downstream processes.
+
+#### **◉ Tools Used** 
+Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI
 
 #### **◉ Responsibilities**
 
@@ -55,9 +55,6 @@ On the ML side, **Azure ML Studio** was leveraged to develop batch demand foreca
 
 #### 📅 **Date:** Apr 2024 - Nov 2024
 
-#### **◉ Tools Used** 
-NucliOS, SQL Server, Python, SQL, draw.io
-
 #### **◉ Project Overview**
 
 The **Project Development Life Cycle (PDLC)** project was an internal initiative to build a fully integrated **in-house project management solution**—designed as a replacement for commercial tools like Jira and Azure Boards.
@@ -71,6 +68,9 @@ The tool provided role-based dashboards and features such as:
 Key features included **user management, role-based access control, and creation of features/stories/tasks/bugs**. Access permissions were **role-specific** (e.g., managers could add/remove team members, while developers could manage tasks assigned to them).
 
 On the backend, the system was powered by **SQL Server**, with **Star and Snowflake schema modeling**, and implemented **Slowly Changing Dimensions (SCD)** and **Change Data Capture (CDC)** design patterns to handle evolving project and team data.
+
+#### **◉ Tools Used** 
+NucliOS, SQL Server, Python, SQL, draw.io
 
 #### **◉ Responsibilities**
 
