@@ -166,7 +166,7 @@ The scope included:
 * Debugging and maintaining the **Airflow pipelines** to ensure resilience against schema changes and upstream data issues.
 
 #### **◉ Tools Used** 
-PySpark, Apache Airflow, SQL, Apache Kafka, JSON, GitHub Actions, Docker, DBeaver
+Google BigQuery, Google Dataproc, PySpark, Apache Airflow, SQL, Apache Kafka, JSON
 
 #### **◉ Responsibilities**
 
@@ -200,26 +200,40 @@ PySpark, Apache Airflow, SQL, Apache Kafka, JSON, GitHub Actions, Docker, DBeave
 
 #### 📅 **Date:** Jan 2023 – Jul 2023
 
-#### **🛠 Tools Used** 
+#### **◉ Project Overview**
+
+This project involved building an **end-to-end Data Quality Monitoring (DQM) system** for **healthcare data hosted in LiveRamp**, where multiple databases from third-party vendors had to be validated for **completeness, consistency, and accuracy**.
+
+The initiative also included creating a **data catalog** with **data dictionaries, grain analysis, and metadata documentation**, helping business and technical teams better understand the datasets.
+
+The solution integrated **Python, PySpark, AWS S3, BigQuery, and Tableau** to monitor quality, detect anomalies, and provide actionable insights.
+
+#### **◉ Tools Used** 
 Python, PySpark, LiveRamp, Google BigQuery, Tableau, AWS S3, Jupyter
 
-#### **🛠 Responsibilities**
-TBD
+#### **◉ Responsibilities**
 
-#### **🏆 Key Achievements**
+* **DQM System Development**: Designed and implemented an automated **Python-based Data Quality Monitoring system** for healthcare datasets.
+* **Anomaly Detection**: Applied **statistical thresholds** and **pattern recognition** in **PySpark & Python** to flag anomalies across patient and prescription records.
+* **Data Integration**: Ingested and transformed healthcare data from **multiple third-party vendors** into **AWS S3** and **BigQuery** for downstream analytics.
+* **Visualization & Monitoring**: Built **auto-refresh Tableau dashboards** displaying trends, quality scores, and triggered alerts for data drifts.
+* **Documentation & Cataloging**: Created a **data catalog** with data dictionary, grain analysis, and other metadata for transparency.
+* **Versioning & Audit**: Maintained workflows in **Jupyter notebooks** and **Git** to ensure reproducibility and auditability.
 
-* 🛠️ **Automated DQM System:** Developed an *end-to-end Data Quality Monitoring* system to ensure integrity, consistency, and completeness of healthcare datasets.
+#### **◉ Key Achievements**
 
-* 📈 **Anomaly Detection:** Implemented *statistical thresholds* and *pattern recognition* in *PySpark* and *Python* to detect anomalies across millions of patient and prescription records.
+* Established a **scalable DQM framework** capable of monitoring **millions of healthcare records** across multiple vendor databases.
+* Automated anomaly detection reduced **manual data validation efforts by 80%**.
+* Built **real-time Tableau dashboards** that provided instant visibility into data health for business stakeholders.
+* Enabled **better governance and compliance** by cataloging datasets and documenting grain-level details.
+* Delivered a **transparent and auditable process** through Git versioning and notebook-driven workflows.
 
-* ☁️ **Data Integration:** Ingested and transformed data from multiple third-party vendors via *LiveRamp*, staging on *AWS S3* and *BigQuery* for downstream analysis.
+#### **◉ Challenges**
 
-* 📊 **Dashboards & Alerts:** Built *auto-refresh Tableau dashboards* with trend visualizations, data quality scores, and *alert triggers* for critical drifts.
-
-* 📂 **Versioning & Auditability:** Logged and versioned workflows using *Jupyter notebooks* and *Git* for transparent audit trails.
-
-#### **⚠ Challenges**
-TBD
+* **Heterogeneous Vendor Data**: Inconsistent formats and schema variations required robust ingestion and standardization logic.
+* **High Data Volume**: Millions of patient/prescription records demanded scalable PySpark-based anomaly detection instead of traditional SQL-based checks.
+* **Complex Data Quality Rules**: Healthcare datasets required sophisticated validations (beyond null/duplicate checks) including **pattern mismatches and threshold deviations**.
+* **User Adoption**: Ensuring dashboards were **intuitive for business stakeholders** while still meeting technical audit requirements.
 
 ---
 
@@ -229,23 +243,41 @@ TBD
 
 #### 📅 **Date:** Jan 2022 – Aug 2022
 
-#### **🛠 Tools Used** 
+#### **◉ Project Overview**
+
+This project aimed to develop an **Access & Reimbursement Dashboard** that tracked **insurance coverage, copay uptake, and payer adherence**. The data was sourced directly from the client’s official website, **scraped using Python**, stored in structured SQL tables, and then visualized through dashboards.
+
+The dashboard monitored key healthcare metrics such as:
+
+* **Claims Fulfillment Rate**
+* **Turnaround Time (TAT)**
+* **Copay Uptake**
+* **Payer Adherence**
+
+The solution integrated **DataIKU, PySpark, Python, SQL, and Power BI** for data ingestion, transformation, and visualization, while **PowerPoint reports** were generated for executive-level quarterly reviews.
+
+#### **◉ Tools Used** 
 Power BI, Python, SQL, PySpark, PowerPoint, DataIKU, Excel
 
-#### **🛠 Responsibilities**
-TBD
+#### **◉ Responsibilities**
 
-#### **🏆 Key Achievements**
+* **Dashboard Development**: Designed and delivered an interactive **Power BI dashboard** with advanced **DAX measures** for slicing data by payer type, region, and patient demographics.
+* **Data Processing**: Scraped healthcare data using **Python**, processed health data streams via **DataIKU** and **PySpark**, and stored structured outputs in SQL tables.
+* **Quality Checks**: Implemented **validation logic, data freshness monitoring, and automated anomaly alerts**.
+* **Executive Reporting**: Created **PowerPoint decks** summarizing dashboard insights for leadership presentations and quarterly reviews.
+* **End-to-End Workflow**: Automated pipeline from **data extraction → transformation → visualization → reporting**.
 
-* 📊 **Access & Reimbursement Dashboard:** Designed and delivered an *interactive dashboard* for stakeholders to monitor **insurance coverage, copay uptake, and payer adherence**.
+#### **◉ Key Achievements**
 
-* ⚡ **Real-Time Data Processing:** Consumed and processed health data streams from APIs using *DataIKU* and *PySpark*, storing intermediate outputs in structured *SQL tables*.
+* Delivered a **centralized dashboard** that gave stakeholders real-time visibility into **insurance coverage and payer adherence trends**.
+* Improved reporting efficiency by **automating data collection and dashboard refreshes**, reducing manual effort by **70%**.
+* Built advanced **Power BI analytics** enabling leaders to drill down by **payer, geography, and patient demographics**.
+* Strengthened decision-making through **automated anomaly detection** and alert systems.
+* Enhanced **executive reporting** with visually appealing and data-backed **PowerPoint summaries**.
+  
+#### **◉ Challenges**
 
-* 🖥️ **Power BI Analytics:** Built *Power BI dashboards* with advanced *DAX measures* to enable filtering by **region, payer type, and patient demographics**.
-
-* 🔍 **Automated Quality Checks:** Implemented validation logic and freshness monitoring using *Python*, with **alert-based triggers** for anomalies.
-
-* 📑 **Executive Reporting:** Supported leadership communication with *PowerPoint decks* summarizing insights for quarterly reviews.
-
-#### **⚠ Challenges**
-TBD
+* **Web Scraping Limitations**: Dynamic client website structures and inconsistent data formats required robust Python scraping logic.
+* **Data Freshness**: Ensuring dashboards refreshed within expected SLAs while dealing with real-time API/web data latency.
+* **Healthcare Data Complexity**: Multiple payer rules, copay structures, and regional variations made standardization challenging.
+* **Stakeholder Expectations**: Balancing **executive-level summaries** with **detailed analytical views** in the same reporting framework.
