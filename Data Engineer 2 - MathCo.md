@@ -166,7 +166,7 @@ The scope included:
 * Debugging and maintaining the **Airflow pipelines** to ensure resilience against schema changes and upstream data issues.
 
 #### **◉ Tools Used** 
-Google BigQuery, Google Dataproc, PySpark, Apache Airflow, SQL, Apache Kafka, JSON
+Google BigQuery, Google Dataproc, Trino, Presto, PySpark, Apache Airflow, SQL, Apache Kafka, JSON
 
 #### **◉ Responsibilities**
 
