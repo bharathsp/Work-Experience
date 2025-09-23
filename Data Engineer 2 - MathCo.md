@@ -65,7 +65,7 @@ The tool provided role-based dashboards and features such as:
 * **Team Dashboard** – team assignments, progress, and workload
 * **Sprint Progress** – sprint velocity, burndown charts, and task tracking
 
-Key features included **user management, role-based access control, and creation of features/stories/tasks/bugs**. Access permissions were **role-specific** (e.g., managers could add/remove team members, while developers could manage tasks assigned to them).
+Key features included **user management, role-based access control (RBAC), and creation of features/stories/tasks/bugs**. Access permissions were **role-specific** (e.g., managers could add/remove team members, while developers could manage tasks assigned to them).
 
 On the backend, the system was powered by **SQL Server**, with **Star and Snowflake schema modeling**, and implemented **Slowly Changing Dimensions (SCD)** and **Change Data Capture (CDC)** design patterns to handle evolving project and team data.
 
