@@ -22,7 +22,7 @@ The system integrated multiple data sources (on-premises databases, Amazon S3, R
 On the ML side, **Azure ML Studio** was leveraged to develop batch demand forecasting models using historical sales and production data. Additionally, **automated DQM pipelines** validated upstream data quality and triggered anomaly reports via email, ensuring reliability of downstream processes.
 
 #### **◉ Tools Used** 
-Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI
+Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI, Azure Virtual Desktop
 
 #### **◉ Responsibilities**
 
