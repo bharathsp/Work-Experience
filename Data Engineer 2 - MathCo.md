@@ -22,7 +22,7 @@ The system integrated multiple data sources (on-premises databases, Amazon S3, R
 On the ML side, **Azure ML Studio** was leveraged to develop batch demand forecasting models using historical sales and production data. Additionally, **automated DQM pipelines** validated upstream data quality and triggered anomaly reports via email, ensuring reliability of downstream processes.
 
 #### **◉ Tools Used** 
-Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python, PySpark, SQL, Azure DevOps, Git, Power BI, Azure Virtual Desktop
+Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Gen2, Azure ML Studio, Python 3, PySpark, SQL, Azure DevOps, Git, Power BI, Azure Virtual Desktop, Spark 4.0
 
 #### **◉ Responsibilities**
 
@@ -70,7 +70,7 @@ Key features included **user management, role-based access control (RBAC), and c
 On the backend, the system was powered by **SQL Server**, with **Star and Snowflake schema modeling**, and implemented **Slowly Changing Dimensions (SCD)** and **Change Data Capture (CDC)** design patterns to handle evolving project and team data.
 
 #### **◉ Tools Used** 
-NucliOS, SQL Server, Python, SQL, draw.io
+NucliOS, SQL Server, Python 3, SQL, draw.io
 
 #### **◉ Responsibilities**
 
@@ -121,7 +121,7 @@ The solution involved:
 The POC lasted one month, and due to its success, it was later converted into a **full-scale project**.
 
 #### **◉ Tools Used** 
-Python, Databricks, SQL, Power BI, Excel, NucliOS, Jira
+Python 3, Databricks, SQL, Power BI, Excel, NucliOS, Jira
 
 #### **◉ Responsibilities**
 
@@ -166,7 +166,7 @@ The scope included:
 * Debugging and maintaining the **Airflow pipelines** to ensure resilience against schema changes and upstream data issues.
 
 #### **◉ Tools Used** 
-Google BigQuery, Google Dataproc, Trino, Presto, PySpark, Apache Airflow, SQL, Apache Kafka, JSON
+Google BigQuery, Google Dataproc, Trino, Presto, PySpark, Apache Airflow 2.6.3, SQL, Apache Kafka, JSON, Spark 4.0
 
 #### **◉ Responsibilities**
 
@@ -209,7 +209,7 @@ The initiative also included creating a **data catalog** with **data dictionarie
 The solution integrated **Python, PySpark, AWS S3, BigQuery, and Tableau** to monitor quality, detect anomalies, and provide actionable insights.
 
 #### **◉ Tools Used** 
-Python, PySpark, LiveRamp, Google BigQuery, Tableau, AWS S3, Jupyter
+Python, PySpark, LiveRamp, Google BigQuery, Tableau, AWS S3, Jupyter, Spark 4.0
 
 #### **◉ Responsibilities**
 
@@ -257,7 +257,7 @@ The dashboard monitored key healthcare metrics such as:
 The solution integrated **DataIKU, PySpark, Python, SQL, and Power BI** for data ingestion, transformation, and visualization, while **PowerPoint reports** were generated for executive-level quarterly reviews.
 
 #### **◉ Tools Used** 
-Power BI, Python, SQL, PySpark, PowerPoint, DataIKU, Excel
+Power BI, Python, SQL, PySpark, PowerPoint, DataIKU, Excel, Spark 4.0
 
 #### **◉ Responsibilities**
 
