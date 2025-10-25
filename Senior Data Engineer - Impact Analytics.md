@@ -11,11 +11,16 @@
 ### **IA Product**
 
 #### 📅 **Date:** Oct 2025 - Present
-#### **🛠 Responsibilities**
+
+#### **◉ Project Overview**
+
+#### **◉ Tools Used** 
+
+#### **◉ Responsibilities**
 TBD
 
-#### **🏆 Key Achievements**
+#### **◉ Key Achievements**
 TBD
 
-#### **⚠ Challenges**
+#### **◉ Challenges**
 TBD
