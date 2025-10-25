@@ -13,8 +13,10 @@
 #### 📅 **Date:** Oct 2025 - Present
 
 #### **◉ Project Overview**
+Currently engaged in building an AI-driven platform that combines Generative and Agentic AI to deliver contextual insights, automate complex workflows, and improve decision support.
 
 #### **◉ Tools Used** 
+TBD
 
 #### **◉ Responsibilities**
 TBD
