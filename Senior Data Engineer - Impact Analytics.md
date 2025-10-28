@@ -16,7 +16,7 @@
 Currently engaged in building an AI-driven platform that combines Generative and Agentic AI to deliver contextual insights, automate complex workflows, and improve decision support.
 
 #### **◉ Tools Used** 
-TBD
+Bit bucket, FastAPI, Postgres, Big Query, Secret Manager, Google Cloud Registry
 
 #### **◉ Responsibilities**
 TBD
