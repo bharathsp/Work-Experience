@@ -73,7 +73,7 @@ Resolved multiple data gaps and performed referential integrity checks across Tr
 Incomplete audits, missing store/district mappings, image handling in PDFs, and ensuring incremental updates without duplicates.
 
 #### **◉ More about this project**
-https://github.com/bharathsp/IA-Agent-Studio/blob/main/Projects/StoreHub%20%26%20Alan%20Chatbot.md
+https://github.com/bharathsp/IA-Agent-Studio/blob/76ef520a64730aebf1a1c6d52ae2b7957342ff94/Projects/PSP%20-%20StoreHub.md
 
 ---
 
@@ -101,7 +101,7 @@ Resolved multiple data gaps and performed referential integrity checks across Tr
 Incomplete audits, missing store/district mappings, image handling in PDFs, and ensuring incremental updates without duplicates.
 
 #### **◉ More about this project**
-https://github.com/bharathsp/IA-Agent-Studio/blob/main/Projects/Store%20SOP.md
+https://github.com/bharathsp/IA-Agent-Studio/blob/76ef520a64730aebf1a1c6d52ae2b7957342ff94/Projects/PSP%20-%20SOP%20Agent.md
 
 ---
 
@@ -129,7 +129,7 @@ Resolved multiple data gaps and performed referential integrity checks across Tr
 Incomplete audits, missing store/district mappings, image handling in PDFs, and ensuring incremental updates without duplicates.
 
 #### **◉ More about this project**
-https://github.com/bharathsp/IA-Agent-Studio/blob/main/Projects/Label%20Compliance%20Checker.md
+https://github.com/bharathsp/IA-Agent-Studio/blob/76ef520a64730aebf1a1c6d52ae2b7957342ff94/Projects/PSP%20-%20Label%20Compliance%20Checker.md
 
 ---
 
@@ -160,7 +160,7 @@ Resolved multiple data gaps and performed referential integrity checks across Tr
 Incomplete audits, missing store/district mappings, image handling in PDFs, and ensuring incremental updates without duplicates.
 
 #### **◉ More about this project**
-https://github.com/bharathsp/IA-Agent-Studio/blob/main/Projects/Store%20Navigator.md
+https://github.com/bharathsp/IA-Agent-Studio/blob/76ef520a64730aebf1a1c6d52ae2b7957342ff94/Projects/PSP%20-%20Store%20Navigator.md
 
 ---
 
@@ -186,6 +186,9 @@ Migrated logic and prepared data for backend development.
 
 #### **◉ Challenges**
 Low promo match rates, query timeouts on large joins, and data availability across Sales/Order/Promo tables.
+
+#### **◉ More about this project**
+https://github.com/bharathsp/IA-Agent-Studio/blob/76ef520a64730aebf1a1c6d52ae2b7957342ff94/Projects/TSC%20-%20Promo%20Recommendation.md
 
 ---
 
