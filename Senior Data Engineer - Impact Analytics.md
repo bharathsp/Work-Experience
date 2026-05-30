@@ -1,6 +1,6 @@
 # Impact Analytics
 
-<img width="150" height="336" alt="image" src="https://github.com/user-attachments/assets/a12eac82-e802-420f-a38e-9d879ef6d5e5" />
+<img width="400" height="136" alt="image" src="https://github.com/user-attachments/assets/a12eac82-e802-420f-a38e-9d879ef6d5e5" />
 
 📅 **Date:** 22 Oct 2025 - Present
 
